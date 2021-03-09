@@ -1,0 +1,130 @@
+body{
+ font-family: 'Montserrat', sans-serif;
+
+    margin: 0px;
+}
+
+h1{
+    font-size: 200%;
+}
+h3{
+    font-size: 120%;
+}
+
+.red-highlight{
+   color: rgb(236, 6, 6);
+}
+
+.a{
+    width: 40%;
+    float: left;
+   margin: 4%;
+}
+   
+.a img {
+    width: 75%;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    
+    
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, black);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700;
+}
+.b{
+    width: 40%;
+    float: right;
+   margin: 4%;
+}
+.b img {
+    width: 60%;
+}
+
+#background{
+    background-image: url(images/biography-bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: left;
+}    
+.single-experience{
+    box-shadow:10px 10px 40px yellowgreen;
+    border-radius: 10px;
+    height: 40%;
+    padding: 10px;
+    
+}
+.experience{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#stack-web{
+    border-left:7px solid;
+    border-image: linear-gradient(blue, #00ccff    );
+    border-image-slice: 1;
+
+}
+#babu-web{ border-left:7px solid;
+    border-image: linear-gradient(rgb(245, 11, 11), #00080a    );
+    border-image-slice: 1;}
+footer p{
+    text-align: center;
+}
+
+
+.recant-work img{ 
+    width: 30%;
+    float: left;
+    margin: 1%;
+    
+}
+.images{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.fnished{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-text{
+    text-align: center;
+}
+.last-work{
+    text-decoration: none;
+    background-image: linear-gradient(red, black);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color:white;
+    font-weight: 700;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    height: 20%;
+}
+.link{
+    color: cornsilk;
+    text-decoration: none;
+}
+.hover:hover{
+    color:rgb(146, 213, 240);
+    font-size: 30px;
+}
+.html{
+    margin-left: 50px;
+}
+.color{
+    color: rgb(93, 8, 250);
+}
